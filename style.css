@@ -45,3 +45,21 @@ main {
     padding: 10px;
     border-radius: 7%;
 }
+
+h2 {
+    color: #444851;
+}
+
+.checkmark {
+    color: #64c0a9;
+    border: 2px solid #64c0a9;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+.crossmark {
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
