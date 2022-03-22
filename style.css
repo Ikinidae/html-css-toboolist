@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+    background-color: #f6f8f9;
+}
+
 /* Intestazione */
 header {
     height: 100px;
-    background-color: blue;
+    background-color: white;
 }
 
 .logo {
@@ -11,6 +16,7 @@ header {
 
 header span {
     font-size: 70px;
+    color: #051931;
 }
 
 /* Corpo */
@@ -18,5 +24,24 @@ main {
     margin-top: 50px;
     margin-left: 15%;
     margin-right: 15%;
-    background-color: coral;
+    background-color: white;
+    /* aggiungere rotondità angoli */
+    border-radius: ;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.tasto1 {
+    background-color: #47adf1;
+    color: white;
+    padding: 10px;
+    border-radius: 7%;
+    margin-right: 10px;
+}
+
+.tasto2 {
+    border: 1px solid gray;
+    color: gray;
+    padding: 10px;
+    border-radius: 7%;
 }
