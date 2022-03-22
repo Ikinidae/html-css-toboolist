@@ -1,21 +1,27 @@
 body {
     margin: 0;
     background-color: #f6f8f9;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* Intestazione */
 header {
-    height: 100px;
+    height: 80px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
 }
 
 .logo {
-    height: 80px;
+    height: 55px;
     width: auto;
+    padding-right: 10px;
 }
 
 header span {
-    font-size: 70px;
+    font-size: 40px;
     color: #051931;
 }
 
@@ -25,8 +31,7 @@ main {
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    /* aggiungere rotondità angoli */
-    border-radius: ;
+    border-radius: 2%;
     padding-top: 30px;
     padding-left: 60px;
 }
@@ -37,6 +42,7 @@ main {
     padding: 10px;
     border-radius: 7%;
     margin-right: 10px;
+    font-size: 13px;
 }
 
 .tasto2 {
@@ -44,7 +50,13 @@ main {
     color: gray;
     padding: 10px;
     border-radius: 7%;
+    font-size: 13px;
 }
+
+hr {
+    margin-top: 20px;
+    border: solid 2px #f6f8f9;
+    }
 
 h2 {
     color: #444851;
@@ -62,4 +74,67 @@ h2 {
     border: 2px solid red;
     border-radius: 50%;
     padding: 2px 5px;
+}
+
+/* Tags */
+.bluetag {
+    background-color: #47adf1;
+    color: white;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: 12px;
+}
+
+.violettag {
+    color: white;
+    background-color: #9c72e4;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: 12px;
+}
+
+.aquatag {
+    color: white;
+    background-color: #64c0a9;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: 12px;
+}
+
+.orangetag {
+    color: white;
+    background-color: #f29e33;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: 12px;
+}
+
+.pinktag {
+    color: white;
+    background-color: #d863a1;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: 12px;
+}
+
+.greentag {
+    color: white;
+    background-color: #b0c926;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: 12px;
+}
+
+p {
+    font-size: 19px;
+    color: #444851;
+}
+
+.newtask {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.today {
+    margin-bottom: 40px;
 }
